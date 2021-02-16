@@ -135,9 +135,9 @@ nav a:hover {
 }
 
 footer  {
-    margin-bottom: auto;
+    margin-top: 90px;
     background-color: #262626;
-    height: 9%;
+    height: 8%;
 }
 
 footer a {
@@ -148,7 +148,7 @@ footer a {
 }
 
 footer i {
-    width: 300px;
+    width: 200px;
     height: 10px;
     font-size: 40px;
     color: white;

@@ -33,9 +33,7 @@ header {
     margin-top:20px;
     margin-left: -100px;
     float: left;
-    background: linear-gradient(to left  bottom, rgba(1, 1, 7, 0.822),
-    rgba(139, 150, 184, 0.3)
-    );
+    background: #fff;
     border-radius: 2px;
 }
 
@@ -83,7 +81,7 @@ nav a:hover {
     width: 100%;
     position: relative;
     top: 600px;
-    background: #ddd;
+    background: linear-gradient(to right top, #e7e7ee, #7f8dc7 );
     height: 1300px;
 }
 
@@ -122,6 +120,7 @@ nav a:hover {
     float: left;
     font-size: 20px;
     margin-right: 40px;
+    margin-top: 150px;
 }
 
 .second-content img {
@@ -155,7 +154,7 @@ footer i {
 }
 
 main {
-    margin-top: 4%;
+    margin-top: 6%;
     padding: 40px 0;
 }
 

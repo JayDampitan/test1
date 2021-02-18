@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -24,8 +23,7 @@ header {
 .logo {
     width: 50%;
     float: left;
-    line-height: 100px;
-    
+    line-height: 100px;  
 }
 
 .logo-link img {
@@ -46,9 +44,11 @@ header {
 }
 
 nav {
+    position: sticky;
     float: right;
     line-height: 100px;
 }
+
 nav a {
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
@@ -126,7 +126,9 @@ nav a:hover {
     width: 400px;
     height: 370px ;
     z-index: 1;
+    margin-right: 20px;
 }
+
 
 .first-content i { 
     float: left;
@@ -137,14 +139,14 @@ nav a:hover {
     float: right;
     margin-top: 90px;
     font-size: 20px;
-    margin-right: 80px;
+    margin-right: 380px;
     z-index: 1;
 }
 
 .second-content p {
     float: left;
     font-size: 20px;
-    margin-right: 40px;
+    margin-left: 340px;
     margin-top: 150px;
     z-index: 1;
 }
@@ -153,6 +155,7 @@ nav a:hover {
     background-size: 50px;
     height: 340px;
     width: 450px;
+    margin-left: 250px;
     z-index: 1;
 }
 
@@ -176,9 +179,14 @@ footer a {
 
 footer i {
     width: 200px;
-    height: 10px;
-    font-size: 40px;
+    height: 20px;
     color: white;
+    font-size: 40px;
+}
+
+.footer-right-side {
+    float: right;
+    margin-right: 200px;
 }
 
 main {
@@ -190,8 +198,6 @@ main h2 {
     text-align: center;
     color: #262626;
 }
-
-
 
 .border {
     width: 100px;
@@ -217,7 +223,6 @@ main h2 {
     outline: none;
     color: #ddd;
     transition: 0.5s;
-
 }
 
 .contact-form-text:focus{
